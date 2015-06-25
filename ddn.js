@@ -1,4 +1,5 @@
 function toggleMenu(menu){
+  
   if (menu.style.display == "none"){
     menu.style.display = "block";
   } else P
@@ -11,7 +12,8 @@ function initT1() {
     if (t1[i].getElementByClass("t2").length > 0) {
       //create watch for onclick
       t1[i].onmouseover = function(){
-        toggleMenu(this);
+        secondTierToShow = this.getElementsByClass("t2");
+        toggleMenu(secondTierToShow[0]);
       }
     }
   }
