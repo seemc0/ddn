@@ -1,12 +1,50 @@
-#navigation ul {
-  list-type: none;
+#dropDownMenu ul {
+  list-style: none;
+  text-align: center;
 }
 
-.t1 {
-  background-color: blue;
+#dropDownMenu {
+  background-color: #d9d9d9;
+  text-transform: uppercase;
+  color: #aeaeae;
+  margin: 0 auto;
+  text-align: center;
+  font-family: arial;
+  font-size: 13px;
+}
+
+#dropDownMenu a {
+  color: #818181;
+  text-decoration: none;
+}
+
+.t1{
+  display: inline;
+}
+
+.t1 a {
+    display: inline-block;
+    padding: 10px;
+    margin: 0;
+}
+
+.t1 a:hover, .t1Hover {
+  background-color: #373737;
+  color: white !important;
 }
 
 .t2 {
   display: none;
-  list-type: none;
+  position: absolute;
+  padding: 0;
+  background-color: #373737;
+  color: white;
+}
+
+.t2 a:hover {
+  background-color: #5f5f5f;
+}
+
+.t2 li {
+
 }
