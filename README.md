@@ -23,7 +23,7 @@ Your website content goes here
 ```
 
 #2
-There needs to be one unordered list ```<ul>``` with an id of "dropDownMenu", containing list elements ```<li>``` with the class "t1". This constitutes the top level of navigation: Tier 1 and it should look something like this:
+Inside the body of your html, there needs to be one unordered list ```<ul>``` with an id of "dropDownMenu", containing list elements ```<li>``` with the class "t1". This constitutes the top level of navigation: Tier 1 and it should look something like this:
 ```
 <ul id="dropDownMenu">
   <li class="t1"><a href="#">First Link</a></li>
