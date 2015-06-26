@@ -48,4 +48,3 @@ Once you've added a dropdown menu, your html should look something like this:
       </ul>
     </li>
     </ul>
-    ```
