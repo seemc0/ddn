@@ -22,13 +22,11 @@ ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
 function toggleMenu(parent, menu, posX, posY){
-  
+  var parentLink = parent.getElementsByTagName("a")[0];
   if (menu.style.display == "block"){
     menu.style.display = "none";
-    var parentLink = parent.getElementsByTagName("a")[0];
     parentLink.className = "";
   } else {
-    var parentLink = parent.getElementsByTagName("a")[0];
     parentLink.className += " t1Hover";
     menu.style.left = posX;
     menu.style.top = posY;
