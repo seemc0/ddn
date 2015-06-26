@@ -17,7 +17,7 @@ Your code will look something like this:
   <link rel="stylesheet" href="styles/ddn.css" />
 </head>
 <body>
-Your website content goes here
+Your website content including the dropDownNavigation goes here
 </body>
 </html>
 ```
